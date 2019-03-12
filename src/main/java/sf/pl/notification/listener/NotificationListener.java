@@ -7,7 +7,7 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
 import sf.pl.notification.base.model.NotificationEvent;
-import sf.pl.notification.lstreams.NotificationStreams;
+import sf.pl.notification.streams.NotificationStreams;
 
 @Component
 public class NotificationListener {

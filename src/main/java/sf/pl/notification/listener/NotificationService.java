@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.MimeTypeUtils;
 
 import sf.pl.notification.base.model.NotificationEvent;
-import sf.pl.notification.lstreams.NotificationStreams;
+import sf.pl.notification.streams.NotificationStreams;
 
 @Service
 public class NotificationService {

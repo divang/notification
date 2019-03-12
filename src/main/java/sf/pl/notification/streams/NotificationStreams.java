@@ -1,4 +1,4 @@
-package sf.pl.notification.lstreams;
+package sf.pl.notification.streams;
 
 import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.cloud.stream.annotation.Output;
