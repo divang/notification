@@ -1,4 +1,3 @@
 FROM java:8
-ADD ./target/notification-*-jar-with-dependencies.jar /app/notification.jar
-
-ENTRYPOINT ["java $JAVA_OPTS -jar /app/notification.jar"]
+COPY ./target/notification-*.jar /app/notification.jar
+CMD [ "java", "-jar", "/app/notification.jar" ]
